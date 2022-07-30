@@ -3,16 +3,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 body {
-    background-color: #222;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     font-size: 62.5%;
+    background: url(../images/bg-desktop.svg) var(--background) left no-repeat;
+    background-size: cover;
 }
 
 .container {
-    background: url(../images/bg-desktop.svg) var(--background) left no-repeat;
     color: #fff;
     width: 1440px;
     height: 800px;
