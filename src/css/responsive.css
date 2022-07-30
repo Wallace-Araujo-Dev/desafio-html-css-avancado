@@ -1,0 +1,111 @@
+@media (max-width:1024px) {
+    .main {
+       margin: 20px;
+    }
+
+    .main .rightside {
+        margin: 0px;
+        padding-left: 15px;
+    }
+
+    .main .rightside h1 {
+        font-size: 2.3em;
+        margin-top: 130px;
+    }
+
+    .main .rightside p {
+        font-size: 1.6em;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:850px) {
+    .main {
+       margin: 20px;
+    }
+
+    .main .rightside {
+        margin: 0px;
+        padding-left: 15px;
+    }
+
+    .main .rightside h1 {
+        font-size: 2em;
+        margin-top: 100px;
+    }
+
+    .main .rightside p {
+        font-size: 1.4em;
+        margin-top: 20px;
+    }
+
+    .main .rightside button {
+        font-size: 1.6em;
+        border: none;
+        width: 150px;
+        height: 45px;
+        margin-top: 25px;
+    }
+
+    .footer {
+        justify-content: center;
+        margin: 0;
+    }
+}
+
+@media (max-width:450px) {
+    .container {
+        background: url(../images/bg-mobile.svg) var(--background) top no-repeat;
+    }
+
+    .header {
+        margin: 30px 0px 0px 32px;
+    }
+    
+    .header .logo {
+        width: 130px;
+    }
+    
+    .main {
+        display: block;
+        text-align: center;
+        margin: 0 37px;
+    }
+
+    .main .leftside img {
+        margin-top: 60px;
+    }
+
+    .main .rightside {
+        padding: 0;
+    }
+    
+    .main .rightside h1 {
+        font-size: 2.4em;
+        margin-top: 58px;
+    }
+
+    .main .rightside p {
+        font-size: 1.6em;
+        margin-top: 15px;
+        line-height: 24px;
+        max-width: 520px;
+    }
+
+    .main .rightside button {
+        font-size: 1.2em;
+        border: none;
+        width: 200px;
+        height: 40px;
+        margin-top: 25px;
+    }
+
+    .footer .fab {
+        font-size: 1.2em;
+        padding: 8px;
+        margin: 6px;
+        width: 28px;
+        height: 28px;
+        margin-top: 63px;
+    }
+}
