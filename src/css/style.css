@@ -15,40 +15,45 @@ body {
 .container {
     color: #fff;
     width: 1440px;
-    height: 800px;
-    display: flex;
-    flex-direction: column;
 }
 
-.header {
-    margin: 52px 0px 0px 70px;
+header {
+    margin: 54px 0px 0px 70px;
 }
 
-.header .logo {
+header .logo {
     width: 215px;
 }
 
-.main {
+main {
     display: flex;
-    margin: 85px 70px 0 70px;
+    margin-top: 85px;
 }
 
-.main .leftside img {
+main .leftside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .leftside img {
     width: 100%;
+    padding-left: 75px;
+
 }
 
-.main .rightside {
-    margin-left: 55px;
+main .rightside {
+    padding: 0 75px 0 54px;
 }
 
-.main .rightside h1 {
+main .rightside h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 3.95em;
     margin-top: 45px;
     max-width: 450px;
 }
 
-.main .rightside p {
+main .rightside p {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.8em;
     margin-top: 20px;
@@ -56,7 +61,7 @@ body {
     max-width: 520px;
 }
 
-.main .rightside button {
+main .rightside button {
     font-family: 'Poppins', sans-serif;
     font-size: 1.8em;
     background-color: #fff;
@@ -69,19 +74,19 @@ body {
     transition: 0.3s;
 }
 
-.main .rightside button:hover {
+main .rightside button:hover {
     cursor: pointer;
     background-color: var(--buton-hover);
     color: #fff;
 }
 
-.footer {
+footer {
     display: flex;
     justify-content: flex-end;
-    margin: 12px 75px 0px  0px;
+    margin: 12px 72px 0px  0px;
 }
 
-.footer .fab {
+footer .fab {
     border: 1px solid #fff;
     border-radius: 50%;
     font-size: 1.8em;
@@ -94,7 +99,7 @@ body {
     color: #fff;
 }
 
-.footer .fab:hover {
+footer .fab:hover {
     color: var(--social-hover);
     border-color: var(--social-hover);
     cursor: pointer;
